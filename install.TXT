@@ -1,0 +1,12 @@
+
+# for Ubuntu 12.04 - do not install packages from ubuntu repo (package are outdated), instead do:
+sudo apt-get update
+sudo apt-get install build-essential python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+
+
+# dependencies for OData server
+npm install odata-server
+npm install node-yaml-config

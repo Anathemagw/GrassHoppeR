@@ -1,0 +1,11 @@
+default:
+  services:
+
+    itd_fotoradary:
+      name: ITD fotoradary
+      typeName: ITDFotoradary
+      model:
+        id:                                   { type: Edm.String }
+        Longitude:                            { type: Edm.Double }
+        Latitude:                             { type: Edm.Double }
+        Elevation:                            { type: Edm.Double }
